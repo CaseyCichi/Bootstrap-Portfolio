@@ -1,7 +1,5 @@
-<style>
-.container {
-    width: 100%;
-    border: 1px solid gray;
+.container{
+	background:none;
 }
 
 a:link {
@@ -44,11 +42,8 @@ body {
 
 aside {
 	position:absolute;
-    float: right;
-    width: 220px;
     margin-left: 725px;
     margin-top:30px;
-    padding: 1em;
     background-color:#ffffff;
     font-family:'Arial', Helvetica, sans-serif;;
     overflow:hidden;
@@ -70,7 +65,6 @@ article {
     margin-left: 110px;
     margin-top:30px;
     color:black;
-    overflow:hidden;
     float: left;
     background-color:#ffffff;
     width:550px;
@@ -218,6 +212,7 @@ article {
     font-size: 16px;
     margin: 2px 10px;
     cursor: pointer;
+    float:left;
 }
 
 .first, .second, .third, .fourth, .fifth {
@@ -287,44 +282,6 @@ article {
 	text-align:center;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
-
-
-
-
-@media screen and (max-width: 980px) {
-	article{
-		width:400px;
-    	height:750px;
-    	padding:5px;
-    	border-size:1px;
-		border-style:solid;
-		border-color:#dddddd;}
-	.mainpic{
-		float:none;
-		width:100px;
-		height:auto;}
-	aside{
-		position:absolute;
-    	float: right;
-   		width: 220px;
-    	margin-left: 570px;}
-    .wholemenu{
-    position:absolute;
-	margin-left:520px;
-	margin-top:20px;
-	display:flex;
-	background-color:#ffffff;
-	list-style-type:none;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color:#777777;
-    }
-	}
-	
-
-
-
-
 
 
 html {
